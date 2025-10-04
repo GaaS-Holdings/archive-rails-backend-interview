@@ -1,0 +1,12 @@
+
+
+{
+  "configurations": [
+     {
+      "type": "rdbg",
+      "name": "Attach with rdbg local",
+      "request": "attach",
+      "debugPort": "12345"
+    }
+  ]
+}
