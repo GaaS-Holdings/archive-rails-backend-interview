@@ -1,5 +1,8 @@
 # README
 
+## Technical Task
+https://link.excalidraw.com/l/AhWi3ozBSB2/4BPt0gs1dov
+
 ## Setup
 `docker compose up`
 
