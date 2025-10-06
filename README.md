@@ -1,24 +1,15 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Setup
+`docker compose up`
 
-Things you may want to cover:
+## Debugging
+For vscode/cursor open `Run and Debug` section. Select `Attach with rdbg local` and click run.
+In the code add breakpoint with `debugger` keyword.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## Database Setup
+Run the following commands in terminal:
+```
+docker compose run --rm application ./bin/rails db:prepare
+docker compose run --rm application ./bin/rails db:seed
+```
